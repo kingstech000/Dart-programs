@@ -68,7 +68,7 @@ void main() {
   void generate_password() {
     int index;
     List<String> password = [];
-    for (int i = 0; i < 10; i++) {
+    for (int i = 0; i < 16; i++) {
       index = Random().nextInt(61);
       password.add(aplhabet[index]);
     }
